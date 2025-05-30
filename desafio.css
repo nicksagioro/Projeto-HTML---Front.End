@@ -1,0 +1,32 @@
+body {
+        font-family: Arial, sans-serif;
+    .custom-font 
+        font-family:"Courier New", monospace;
+
+  background:#BBE7F4;
+.primario-fieldset {
+    border-radius: 20px;
+    background-color: #ffffff;}
+}
+
+h1 {
+    color:black  
+}
+
+legend {
+    color:rgb(0, 0, 0)
+}
+
+fieldset {
+    border-radius: 20px;
+    color:rgb(0, 0, 0)
+}
+
+fieldset {
+  background-color: #C4E9EB;
+}
+.negrito {
+    font-weight: bold;
+    text
+}
+
