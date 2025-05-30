@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #BBE7F4;
+    margin: 0;
+    padding: 0;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 30px;
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #1f2937;
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+fieldset {
+    background-color: #C4E9EB;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+input[type="text"],
+select,
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.button-group {
+    text-align: left;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+    button.enviar {
+        background-color: #007BFF;
+        color: white;
+    }
+
+    button.limpar {
+        background-color: #e0e0e0;
+        color: #333;
+    }
