@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário</title>
+    <link rel="stylesheet" href="desafio.css">
+</head>
+<body>
+
+    <main class="form-container">
+        <h1>Formulário</h1>
+
+        <form>
+            <fieldset>
+                <p><legend>Dados pessoais</legend></p>
+
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required /><br />
+
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="endereco" name="endereco" required /><br />
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" required /><br />
+
+                <label for="estado">Estado:</label>
+                <select name="estado" id="estado" required>
+                    <option value="">Selecione...</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PR">Paraná</option>
+                    <option value="BA">Bahia</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="CE">Ceará</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                    <option value="DF">Distrito Federal</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <p><legend>Dados profissionais</legend></p>
+
+                <p><strong>Natureza do Cargo:</strong></p>
+                <label><input type="radio" name="naturezaCargo" value="gerencia" required /> Gerência</label>
+                <label><input type="radio" name="naturezaCargo" value="financeiro" /> Financeiro</label>
+                <label><input type="radio" name="naturezaCargo" value="recepcao" /> Recepção</label>
+                <label><input type="radio" name="naturezaCargo" value="administrativo" /> Administrativo</label>
+                <label><input type="radio" name="naturezaCargo" value="juridico" /> Jurídico</label>
+
+                <p><strong>Área de interesse:</strong></p>
+                <label><input type="checkbox" name="areaInteresse[]" value="computacao" /> Computação</label>
+                <label><input type="checkbox" name="areaInteresse[]" value="biologia" /> Biologia</label>
+                <label><input type="checkbox" name="areaInteresse[]" value="meioAmbiente" /> Meio Ambiente</label>
+                <label><input type="checkbox" name="areaInteresse[]" value="engenharia" /> Engenharia</label>
+                <label><input type="checkbox" name="areaInteresse[]" value="historia" /> História</label>
+
+                <br>
+
+                <label for="miniCurriculo"><strong>Mini-currículo:</strong></label><br />
+                <textarea id="miniCurriculo" name="miniCurriculo" rows="5" cols="50"></textarea>
+            </fieldset>
+
+            <div class="button-group">
+                <button type="submit" class="enviar">Enviar</button>
+                <button type="reset" class="limpar">Limpar</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
