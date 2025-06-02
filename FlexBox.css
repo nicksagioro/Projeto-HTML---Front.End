@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    width: 100px
+}
+
+.container1 {
+    background-color: rgb(247, 247, 247);
+    width: 650px;
+    height: 250px;
+    
+}
+
+.container2 {
+
+    background-color: rgb(252, 29, 29);
+    width: 650px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container3 {
+
+    background-color: rgb(41, 29, 29);
+    width: 650px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+}
